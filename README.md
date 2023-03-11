@@ -1,25 +1,21 @@
 # eslint-demo
 
-Dockerize Node.js application
+ESLint config on Node.js application
 
 ## Step 1
 
-Install [Docker](https://docs.docker.com/engine/install/)
+Install [Node](https://nodejs.org/en/download/https://nodejs.org/en/download/)
 
 ## Step 2
 
-Run below comment in terminal of this project root directory to create docker image
+Run below comment in terminal of this project root directory to install node packages
 
-`docker build -t <username>/<app-name> .`
+`npm install`
 
 ## Step 3
 
-Run below comment in terminal of this project root directory to create docker container
+Run below comment in terminal of this project root directory to run lint
 
-`docker run -p 3300:3300 <username>/<app-name>`
+`npm run lint`
 
-## Step 4
-
-Open below url to access node
-
-[Node](http://localhost:3300)
+**Note** - Above comment will show error in whole project directory
