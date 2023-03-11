@@ -1,0 +1,15 @@
+{
+  "name": "eslint-demo",
+  "version": "0.0.1",
+  "description": "Eslint demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "author": "Balakrishnan P",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
